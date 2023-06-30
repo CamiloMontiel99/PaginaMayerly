@@ -3,9 +3,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="boton-whastapp/whatsapp-logo.css">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap" rel="stylesheet">    <title>Contadora Pública</title>
+    <script src="JS/jquery-3.6.4.js"></script>
 </head>
 <body>
+    <!-- boton-flotante-whatsapp -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <a href="https://api.whatsapp.com/send?phone=3505479042&text=Hola!%20Quisiera%20mas%20informaci%C3%B3n%20sobre%20tus%20servicios." class="float" target="_blank">
+            <i class="fa fa-whatsapp my-float"></i>
+        </a>
     
+        <!-- nav -->
+    <div class="container-nav">
+        <nav id ="nav">
+            <ul id="menu">
+                <!-- logo-personal -->
+                <img src="#" alt="logo">
+
+                <li><a class="desplazar" href="#inicio">Inicio</a></li>
+                <li><a class="desplazar" href="#servicios">Servicios</a></li>
+                <li><a class="desplazar" href="#mision">Misión</a></li>
+                <li><a class="desplazar" href="#perfil">Perfil</a></li>
+                <li><a class="desplazar" href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
+        
+        <!-- contenido-pagina -->
+        <header">
+            <div class="contenido-inicio sections" id="inicio">
+                <h1 class="titulo">
+                    Contadora Pública <hr>
+                    <p>Mayerly Montiel Collazos</p>
+                </h1>
+                <p>Servicios contables, tributarios, financieros y legal comercial</p>
+            </div>
+        </header>
+
+        <section id="servicios" class="sections">
+            <div titulo-servicios>
+                <h2>Portafolio de servicios</h2>
+            </div>
+            <div class="contenido-servicios">
+                <h3>Contables</h3>
+                <ol>
+                    <li>Reportes de información y requerimientos de los diferentes de control y vigilancia.</li>
+                    <li>Elaboración Estados financieros y revelaciones.</li>
+                    <li>Revisoría Fiscal.</li>
+                    <li>Auditorias internas</li>
+                    <li>Asesoría contable (Desarrollo de políticas NCIF, Manuales y procesos contables).</li>
+                    <li>Facturación Electrónica.</li>
+                    <li>Outsourcing Contable o In-House.</li>
+            </ol>
+            <ul>
+                <h3>Financieros</h3>
+                <li>Flujo de caja.</li>
+                <li>Tesorería.</li>
+                <li>Presupuestos.</li>
+                <li>Análisis de los estados financieros (Indicadores de rentabilidad, liquides, patrimoniales, entre otros).</li>
+            </ul>
+            <ul>
+                <h3>Legal Comercial</h3>
+                <li>Asesoría en la constitución, y liquidación de empresas. (Estatutos y tramites DIAN y Secretaria distrital)</li>
+            </ul>
+            <ul>
+                <h3>Tributario</h3>
+                <li>Elaboración de renta y complementarios personas Naturales y Jurídicas.</li>
+                <li>Solicitudes de devolución o compensaciones ante la DIAN. Conta</li>
+                <li>Elaboración y reporte de medios magnéticos Nacionales y Distritales.</li>
+                <li>Declaración de IVA, Retención en la fuente, ICA y Retención de industria y comercio.</li>
+                <li>Asesoría requerimientos tributarios de entes de control y conceptos tributarios.</li>
+            </ul>
+            <ul>
+                <h3>Administración y nomina</h3>
+                <li>Nomina Electrónica </li>
+                <li>Afiliaciones a seguridad social y parafíscales.</li>
+                <li>Administración de nómina.</li>
+                <li>Inventario de activos fijos y productos.</li>
+                <li>Liquidaciones laborales.</li>
+            </ul>
+            </div>
+        </section>
+    
+
+        <section id="mision" class="sections">
+            <h2 class="titulos">Misión<hr></h2>
+        
+        </section>
+
+
+        <section id="perfil" class="sections">
+            <h2 class="titulos">Perfil<hr></h2>
+        
+
+        </section>
+    
+        <section id="contacto" class="sections">
+            <div>
+                <h2 class="titulo-contacto">Contactame</h2>
+            </div>
+            <div>
+                <h3> 
+                    <p><span>Email:</span> valen_9211@hotmail.com</p>
+                    <p><span>Tel:</span> 3505479042</p>
+                    <hr>
+                </h3>
+                <p>Dejame tus datos y con gusto te contactaré</p>
+                <form action="">
+                    <input name="nombre" type="text" id="nombre" placeholder="Nombre" required>
+                    <input name="email" type="email" id="email" placeholder="Email" required>
+                    <input name="telefono" type="number" id="tel" placeholder="Teléfono" required>
+                    <input name="mensaje" type="text" id="mensaje" placeholder="Escribe tu mensaje aquí..." required>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    
+        <hr>
+
+    <footer>
+        © Mayerly Montiel Collazos
+
+        <!-- redes sociales -->
+        <img src="img/linkedin-icon.png" alt="LinkendIn">
+        <img src="img/whatsapp-icon.png" alt="Whatsapp">
+    </footer>
+
+    <script src="JS/main.js"></script>
 </body>
 </html>
