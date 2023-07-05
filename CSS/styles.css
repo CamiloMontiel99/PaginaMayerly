@@ -121,14 +121,6 @@ p, img {
     font-size: 48px;
 }
 
-.titulo hr {
-    display: flex;
-    width: 75%;
-    margin-top: 10px;
-    padding: 1px;
-    position: absolute;
-}
-
 .titulo p {
     font-size: 22px;
     width: auto;
@@ -464,7 +456,7 @@ footer {
     flex-wrap: wrap;
     background-image: url(../img/fondo-footer.jpg);
     background-size: cover;
-    height: 500px;
+    height: 450px;
     justify-content: center;
     font-size: 22px;
 }
