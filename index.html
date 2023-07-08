@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/styles.css">
     <link rel="stylesheet" href="boton-whastapp/whatsapp-logo.css">
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap" rel="stylesheet">    <title>Contadora Pública</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">   
+    <title>Contadora Pública</title>
     <script src="JS/jquery-3.6.4.js"></script>
 </head>
 <body>
@@ -16,22 +19,31 @@
         </a>
     
         <!-- nav -->
-    <div class="container-nav">
-        <nav id ="nav">
+        <header>
+        <div class="container-nav">
+        <nav id ="nav" class="container">
+            <a class="desplazar img-logo1" href="#inicio"><img src="img/LOGO-MAYE.jpg" alt="logo"></a>
             <ul id="menu">
+                <a class="desplazar img-logo2" href="#inicio"><img src="img/LOGO-MAYE.jpg" alt="logo"></a>
                 <!-- logo-personal -->    
-                <a class="desplazar" href="#inicio"><img src="img/LOGO-MAYE.jpg" alt="logo"></a>
-                <li><a class="desplazar" href="#inicio">Inicio</a></li>
+                <li><a class="desplazar" href="#nav" href="#inicio">Inicio</a></li>
                 <li><a class="desplazar" href="#servicios">Servicios</a></li>
                 <li><a class="desplazar" href="#mision">Misión</a></li>
                 <li><a class="desplazar" href="#perfil">Perfil</a></li>
                 <li><a class="desplazar" href="#contacto">Contacto</a></li>
             </ul>
+
+            <a href="#nav" class="nav_hamburger">
+                <img src="assets/menu.svg" class="nav_icon">
+            </a>
+            <a href="#" class="nav_close">
+                <img src="assets/close.svg" class="nav_icon">
+            </a>
+
         </nav>
     </div>
         
         <!-- contenido-pagina -->
-        <header">
             <div class="contenido-inicio sections" id="inicio">
                 <div class="titulo">
                     <h1>Contadora Pública</h1> 
@@ -91,10 +103,10 @@
     
 
         <section id="mision" class="sections">
-            <div contenedor-mision>
-                <h2 class="titulos">Misión</h2>
+            <div class="contenedor-mision">
+                <h2>Misión</h2>
                 <p>
-                    Involucrarme profundamente con mis clientes, brindéndoles un servicio diferenciado en cuanto a un trato directo y permanente, oportuno y eficiente, creando valor, a fin de alcanzar una ventaja competitiva sostenible.
+                    Involucrarme profundamente con mis clientes, brindándoles un servicio diferenciado en cuanto a un trato directo y permanente, oportuno y eficiente, creando valor, a fin de alcanzar una ventaja competitiva sostenible.
                 </p>
             </div>
         </section>
@@ -107,10 +119,12 @@
                     <p>Contadora Pública con conocimientos básicos en SAP ERP, manejo de los 
                         paquetes contables World Office, SIIGO, Siesa Pymes, Índigo Vie ERP, Normas 
                         internacionales de Información Financiera NIIF Para Pymes; conocimientos en 
-                        entidades sin ánimo de lucro, servicios, salud, comercial</p>
+                        entidades sin ánimo de lucro, servicios, salud, comercial.</p>
+                </div>
+                <div class="titulo-clientes">
+                    <h3>Clientes</h3>   
                 </div>
                 <div class="clientes">
-                    <h3>Clientes</h3>   
                     <div id="slider">
                         <div class="slide-items">
                             <div class="item">
@@ -146,7 +160,6 @@
                             <div class="item">
                                 <img src="img/slider-clientes/Civi.png" alt="CIVI_SAS">
                             </div>
-
                             <div class="item">
                                 <img src="img/slider-clientes/Arq_proyectual.png" alt="ARQITECTURA_PROYECTUAL">
                             </div>
