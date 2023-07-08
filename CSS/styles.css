@@ -735,6 +735,7 @@ footer {
     .clientes {
         height: 200px;
         padding: 10px 0px;
+        overflow: hidden;
     }
 
     #slider {
